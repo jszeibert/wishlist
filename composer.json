@@ -1,0 +1,15 @@
+{
+    "name": "Wishlist",
+    "description": "Simple wishlist app for Nextcloud",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Johannes Szeibert"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}

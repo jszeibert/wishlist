@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>wishlist</id>
+    <name>Wishlist</name>
+    <summary>Simple wishlist app for Nextcloud</summary>
+    <description><![CDATA[The goal of this project is to provide a shopping and/or wishlist list to nextcloud.
+
+Other that using notes, tasks or other existing next cloud projects for this purpose the features should include:
+
+* sharing/ publishing lists for non registered users
+* a &quot;pick as gift&quot; function for non registered users. To temporary hide wishlist items to avoid duplicate gifts.
+* a simple method to add list items by webshop links with:
+** automatic detection of product details like price, image, description, availability, ...
+** periodic check of reachability/ availability of list items
+** integration of well known shops like Amazon, Etsy, ... 
+* a dedicated Android app to be able to add list items by sharing links from a browser]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="johannes@szeibert.de" homepage="https://github.com/jszeibert/wishlist">Johannes Szeibert</author>
+    <namespace>Wishlist</namespace>
+    <category>organization</category>
+    <bugs>https://github.com/jszeibert/wishlist/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="15" max-version="15"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Wishlist</name>
+            <route>wishlist.page.index</route>
+        </navigation>
+    </navigations>
+</info>
