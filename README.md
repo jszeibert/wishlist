@@ -1,5 +1,46 @@
 # Wishlist
+
+The goal of this project is to provide dedicated shopping and wishlists for registered nextcloud users in a quick and easy way.
+
+A private delayed shopping list for items, you don't need right now or my want to spend some time to think about, e.g. if you really want to spend the money on them.
+A public wishlist to make the life easy for friends and family just around your birthday or the holydays.
+Projects related shopping lists, that serve to collect all needed items before the final purchase
+Or maybe a list of cool items you don't have the money for at the moment.
+
+### Features
+
+Other than using notes, tasks or other existing nextcloud projects for this purpose, this app should include features like:
+
+* sharing lists with other registered users (e.g. as a collaborative shopping list for a move)
+* publishing lists and list items for non registered users. (e.g. as a wishlist)
+* a "pick as gift" function for non registered users. (to temporary hide or mark wishlist items as "as gift selected" to avoid duplicate gifts)
+* a simple method to add list items by only prividing webshop links with:
+    * automatic parsing of product details like price, image, description, availability, ... (where possible)
+    * periodic check of reachability/ availability of list items
+    * integration of well known shops like Amazon, Etsy, ... (for e.g. price tracking, availability notification, ...)
+* a dedicated Android app to be able to add list items by sharing links from a browser
+
+## Contribution
+
+If you would like to contribute, there are ample oppertunities to do so.
+
+* you found a bug?
+* there is a feature missing?
+* you have an idea to improve the user experience?
+ --> open an issue
+
+* you can code
+ --> fork this project and code away, but please don't forget to issue a pull request
+ 
+Thanks a lot, I realy appreciate the help.
+
+## Installation
+
 Place this app in **nextcloud/apps/**
+
+### Dev Setup
+
+See https://docs.nextcloud.com/server/latest/developer_manual/app_development/tutorial.html#setup
 
 ## Building the app
 
